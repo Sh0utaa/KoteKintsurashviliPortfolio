@@ -70,6 +70,20 @@ img {
     height: 1000px; background-color: white;
 }
 
+.certificate-img {
+    width: 50%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ddd; /* Add a subtle border */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    transition: transform 0.3s ease; /* Add a hover effect */
+}
+
+.certificate-img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+
 @media (max-width: 767.98px) {
     img {
         max-width: 80%; 
